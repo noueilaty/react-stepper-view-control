@@ -25,33 +25,3 @@ export class StepBtn extends Component {
     );
   }
 }
-
-
-
-
-// Class Notes:
-// import React, { Component } from 'react';
-// export class Switch extends Component {
-//   constructor(props) {
-//     super(props)
-//     // telling the switchClicked function that it is binding to the Switch class
-//     this.switchClicked = this.switchClicked.bind(this)
-//   }
-// // class functions are unbound by default
-// // they don't know what "this" means
-//   switchClicked() {
-//     let value = this.headingElement.innerHTML
-//     if(value == "ON") {
-//       this.headingElement.innerHTML = "OFF"
-//     } else {
-//       this.headingElement.innerHTML = "ON"
-//     }
-//   }
-//   render() {
-//     return (
-//       <div className="switch" onClick={this.switchClicked} >
-//         <h1 ref={(element) => this.headingElement = element}>ON</h1>
-//       </div>
-//     )
-//   }
-// }

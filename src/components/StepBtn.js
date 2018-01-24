@@ -17,10 +17,10 @@ export class StepBtn extends Component {
 
   render() {
     return (
-      <div>
-        <button type="button" onClick={this.subtract}>-</button>
-        <h1 ref={element  => this.counter = element}>0</h1>
-        <button type="button" onClick={this.add}>+</button>
+      <div className='step-counter'>
+        <button type="button" className='subtract-btn' onClick={this.subtract}>-</button>
+        <h1 className='step-number'ref={element  => this.counter = element}>0</h1>
+        <button type="button" className='add-btn' onClick={this.add}>+</button>
       </div>
     );
   }
